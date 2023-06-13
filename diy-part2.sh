@@ -12,3 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
+
+#额外软件包
+git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
